@@ -527,11 +527,11 @@ h6:empty {
   color: rgb(var(--color-foreground));
 }
 
-.text-nataxa {
+.link--text--nataxa {
 	color: #fff
 }
 
-.text-nataxa:hover {
+.link--text--nataxa:hover {
 	color: red;
 }
   
