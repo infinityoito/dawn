@@ -1,7 +1,18 @@
 {
   "sections": {
+    "video": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/saint-devil-nataxa-shop.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=p477qX_HAmM",
+        "description": "",
+        "full_width": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -174,16 +185,6 @@
         "swipe_on_mobile": true
       }
     },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/238324718_1171271263356679_2439167306468407696_n.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=p477qX_HAmM",
-        "description": "",
-        "full_width": true
-      }
-    },
     "1629509162008de942": {
       "type": "contact-form",
       "disabled": true,
@@ -224,12 +225,12 @@
     }
   },
   "order": [
+    "video",
     "image_banner",
     "rich_text",
     "featured_products",
     "collage",
     "multi_column",
-    "video",
     "1629509162008de942",
     "162950938976847288"
   ]
