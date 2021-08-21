@@ -522,10 +522,19 @@ h6:empty {
   font-family: inherit;
 }
 
+
 .link--text {
   color: rgb(var(--color-foreground));
 }
 
+.link--text-nataxa {
+	color: #fff
+}
+
+.link--text-nataxa:hover {
+	color: red;
+}
+  
 .link--text:hover {
   color: rgba(var(--color-foreground), 0.75);
 }
@@ -1766,7 +1775,8 @@ input[type='checkbox'] {
   grid-template-areas: 'left-icon heading icons';
   grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  background-color: rgb(var(--color-background));
+/*   background-color: rgb(var(--color-background)); */
+  background-color: #000;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
