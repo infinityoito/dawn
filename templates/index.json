@@ -33,50 +33,6 @@
         "adapt_height_first_image": false
       }
     },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_3d064652-c8bc-48fb-9448-601906d09184.png",
-            "title": "Saint Devil",
-            "text": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_dec3aa73-d573-400a-81ef-38928355fd65.png",
-            "title": "Manifest",
-            "text": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_916b5072-6ea8-490d-a728-a21d65bd655c.png",
-            "title": "punish",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "column_alignment": "center",
-        "background_style": "secondary",
-        "button_label": "Corre Lá",
-        "button_link": "shopify:\/\/collections",
-        "swipe_on_mobile": true
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -118,7 +74,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "",
         "collection": "all",
         "products_to_show": 12,
         "show_view_all": true,
@@ -174,6 +130,50 @@
         "mobile_layout": "column"
       }
     },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_3d064652-c8bc-48fb-9448-601906d09184.png",
+            "title": "Saint Devil",
+            "text": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_dec3aa73-d573-400a-81ef-38928355fd65.png",
+            "title": "Manifest",
+            "text": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_916b5072-6ea8-490d-a728-a21d65bd655c.png",
+            "title": "punish",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "Corre Lá",
+        "button_link": "shopify:\/\/collections",
+        "swipe_on_mobile": true
+      }
+    },
     "video": {
       "type": "video",
       "settings": {
@@ -187,10 +187,10 @@
   },
   "order": [
     "image_banner",
-    "multi_column",
     "rich_text",
     "featured_products",
     "collage",
+    "multi_column",
     "video"
   ]
 }
