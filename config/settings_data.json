@@ -9,7 +9,16 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "sale_badge_color_scheme": "accent-2",
+    "accent_icons": "outline-button",
+    "social_twitter_link": "https:\/\/twitter.com\/nataxashop",
+    "social_facebook_link": "",
+    "social_instagram_link": "https:\/\/instagram.com\/nataxashop",
+    "social_tiktok_link": "https:\/\/tiktok.com\/nataxashop",
+    "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCmiA9SohAdMYqNsLGfdXpyw",
+    "favicon": "shopify:\/\/shop_images\/1_82e8a93f-8c8a-4de8-8bda-1d0cac2395c6.png",
     "currency_code_enabled": false,
+    "checkout_logo_image": "shopify:\/\/shop_images\/Asset_1_02a21823-d848-473c-aa71-052e32653aed.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -73,12 +82,12 @@
           "footer-1"
         ],
         "settings": {
-          "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "color_scheme": "inverse",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
           "payment_enable": true
         }
       }
