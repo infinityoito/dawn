@@ -34,7 +34,6 @@
           },
           "fc0b8127-1fe9-453d-8ffd-d35f1bbc78b9": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Droop Saint Devil",
               "color_scheme": "inverse",

@@ -1,10 +1,120 @@
 {
   "sections": {
     "main": {
-      "type": "main-search"
+      "type": "main-search",
+      "settings": {
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "article_show_date": true,
+        "article_show_author": false
+      }
+    },
+    "162951054667131ed0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "saint-devil",
+        "products_to_show": 12,
+        "show_view_all": true,
+        "swipe_on_mobile": true,
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "1629510558dd6e7aec": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "1629510558dd6e7aec-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1629510558dd6e7aec-1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "1629510558dd6e7aec-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1629510558dd6e7aec-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1629510558dd6e7aec-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1629510558dd6e7aec-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1629510558dd6e7aec-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1629510558dd6e7aec-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1629510558dd6e7aec-0",
+        "1629510558dd6e7aec-1",
+        "1629510558dd6e7aec-2",
+        "1629510558dd6e7aec-3",
+        "1629510558dd6e7aec-4",
+        "1629510558dd6e7aec-5",
+        "1629510558dd6e7aec-6",
+        "1629510558dd6e7aec-7"
+      ],
+      "settings": {
+        "product": "",
+        "secondary_background": false,
+        "enable_video_looping": false
+      }
+    },
+    "16295106570f1ad8ec": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1629510646a5ff6ad1": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "162951054667131ed0",
+    "1629510558dd6e7aec",
+    "16295106570f1ad8ec",
+    "1629510646a5ff6ad1"
   ]
 }
