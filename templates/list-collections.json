@@ -3,7 +3,11 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "image_ratio": "square"
+        "title": "",
+        "sort": "alphabetical",
+        "image_ratio": "portrait",
+        "color_scheme": "accent-1",
+        "image_padding": false
       }
     }
   },
