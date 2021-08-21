@@ -2087,6 +2087,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   text-decoration: none;
 /*   color: rgba(var(--color-foreground), 0.75); */
   color: #fff;
+  font-style: bold;
 }
 
 .header__menu-item:hover {
