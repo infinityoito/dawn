@@ -27,15 +27,15 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Drop Saint Devil",
-              "color_scheme": "background-1",
+              "text": "FRETE GRATIS APARTIR  R$ 499,99",
+              "color_scheme": "inverse",
               "link": ""
             }
           },
           "fc0b8127-1fe9-453d-8ffd-d35f1bbc78b9": {
             "type": "announcement",
             "settings": {
-              "text": "Droop Saint Devil",
+              "text": "frete grátis pra todo br a partir de 499 | new drop saint devil shop now |",
               "color_scheme": "inverse",
               "link": "shopify:\/\/collections\/saint-devil"
             }
