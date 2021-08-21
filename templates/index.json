@@ -1,18 +1,7 @@
 {
   "sections": {
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "cover_image": "shopify:\/\/shop_images\/mq2.jpg",
-        "video_url": "https:\/\/youtu.be\/RnDl6Jlaj5Y",
-        "description": "",
-        "full_width": true
-      }
-    },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -42,6 +31,50 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
+      }
+    },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_3d064652-c8bc-48fb-9448-601906d09184.png",
+            "title": "Saint Devil",
+            "text": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_dec3aa73-d573-400a-81ef-38928355fd65.png",
+            "title": "Manifest",
+            "text": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_916b5072-6ea8-490d-a728-a21d65bd655c.png",
+            "title": "punish",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "Corre Lá",
+        "button_link": "shopify:\/\/collections",
+        "swipe_on_mobile": true
       }
     },
     "rich_text": {
@@ -141,55 +174,23 @@
         "mobile_layout": "column"
       }
     },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_3d064652-c8bc-48fb-9448-601906d09184.png",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
+    "video": {
+      "type": "video",
       "settings": {
-        "title": "Multicolumn",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Button label",
-        "button_link": "",
-        "swipe_on_mobile": false
+        "heading": "",
+        "cover_image": "shopify:\/\/shop_images\/mq2.jpg",
+        "video_url": "https:\/\/youtu.be\/RnDl6Jlaj5Y",
+        "description": "",
+        "full_width": true
       }
     }
   },
   "order": [
-    "video",
     "image_banner",
+    "multi_column",
     "rich_text",
     "featured_products",
     "collage",
-    "multi_column"
+    "video"
   ]
 }
