@@ -18,6 +18,10 @@
 }
 
 
+a#cart-icon-bubble {
+    color: #fff;
+}
+
 /* Color custom properties */
 :root,
 .color-background-1 {
