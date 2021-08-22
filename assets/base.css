@@ -13,6 +13,14 @@
 	color: red;
 }
 
+.header__icon--cart {
+	color: #fff;
+}
+
+.cart-count-bubble {
+	background: red;
+}
+
 /* Color custom properties */
 :root,
 .color-background-1 {
