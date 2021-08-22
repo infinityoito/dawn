@@ -17,8 +17,8 @@
 	color: #fff;
 }
 
-.cart-count-bubble {
-	background: red;
+#cart-icon-bubble {
+	background: #fff;
 }
 
 /* Color custom properties */
