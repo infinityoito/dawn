@@ -2,9 +2,17 @@
 .icon-search {
 	color: #fff;
 }
+.icon-search:hover {
+	color: red;
+}
 .icon-cart-empty {
 	color: #fff;
 }
+
+.icon-cart-empty:hover {
+	color: red;
+}
+
 /* Color custom properties */
 :root,
 .color-background-1 {
