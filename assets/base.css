@@ -2,6 +2,9 @@
 .icon-search {
 	color: #fff;
 }
+.icon-cart-empty {
+	color: #fff;
+}
 /* Color custom properties */
 :root,
 .color-background-1 {
