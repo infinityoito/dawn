@@ -220,6 +220,41 @@
         "color_scheme": "inverse",
         "full_width": true
       }
+    },
+    "1629695039ffeb2094": {
+      "type": "image-with-text",
+      "blocks": {
+        "1629695039ffeb2094-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "saint devil"
+          }
+        },
+        "1629695039ffeb2094-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ser um <strong>santa<\/strong> dá trabalho, ser o <strong>poder<\/strong>  caminhando na terra é mais fácil eu tenho o mundo na sola das minhas botas e os homens como meus <strong>serviçais. <\/strong>vista <a href=\"https:\/\/instagram.com\/nataxashop\" title=\"instagram @nataxashop\"><strong>nataxa<\/strong><\/a> e sinta esse poder.<\/p>"
+          }
+        },
+        "1629695039ffeb2094-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "comprar",
+            "button_link": "shopify:\/\/products\/keys-to-the-queendom"
+          }
+        }
+      },
+      "block_order": [
+        "1629695039ffeb2094-0",
+        "1629695039ffeb2094-1",
+        "1629695039ffeb2094-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/238324718_1171271263356679_2439167306468407696_n.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
     }
   },
   "order": [
@@ -230,6 +265,7 @@
     "multi_column",
     "collage",
     "1629509162008de942",
-    "162950938976847288"
+    "162950938976847288",
+    "1629695039ffeb2094"
   ]
 }
