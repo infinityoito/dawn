@@ -97,50 +97,6 @@
         "show_vendor": false
       }
     },
-    "collage": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/1.png",
-            "video_url": "https:\/\/youtu.be\/RnDl6Jlaj5Y",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        },
-        "product": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "secondary_background": true,
-            "second_image": true,
-            "image_padding": true
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "collection",
-        "product"
-      ],
-      "settings": {
-        "heading": "",
-        "desktop_layout": "right",
-        "mobile_layout": "column"
-      }
-    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -183,6 +139,48 @@
         "button_label": "Corre Lá",
         "button_link": "shopify:\/\/collections",
         "swipe_on_mobile": true
+      }
+    },
+    "collage": {
+      "type": "collage",
+      "blocks": {
+        "video": {
+          "type": "video",
+          "settings": {
+            "cover_image": "shopify:\/\/shop_images\/mq2.jpg",
+            "video_url": "https:\/\/youtu.be\/RnDl6Jlaj5Y",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "collection": "nataxa-1",
+            "image_padding": false,
+            "color_scheme": "inverse"
+          }
+        },
+        "product": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "",
+            "secondary_background": true,
+            "second_image": true,
+            "image_padding": true
+          }
+        }
+      },
+      "block_order": [
+        "video",
+        "collection",
+        "product"
+      ],
+      "settings": {
+        "heading": "",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
       }
     },
     "1629509162008de942": {
@@ -229,8 +227,8 @@
     "image_banner",
     "rich_text",
     "featured_products",
-    "collage",
     "multi_column",
+    "collage",
     "1629509162008de942",
     "162950938976847288"
   ]
