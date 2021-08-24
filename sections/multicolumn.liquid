@@ -33,12 +33,13 @@
                   {% assign spaced_image = true %}
                 {% endif %}
                 <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--{{ section.settings.image_width }}-width{% if section.settings.image_width != 'full' or spaced_image %} multicolumn-card-spacing{% endif %}">
+                  <a class="button button--primary" aria-label="{{block.settings.title}}"  href="/collections/{% if block.settings.title != blank and block.settings.title != "be have"%}{{block.settings.title}}{%- endif -%}
+                {%- if block.settings.title == "be have" %}be-have{%- endif -%}">
                   <div class="media media--transparent media--{{ section.settings.image_ratio }}"
                     {% if section.settings.image_ratio == 'adapt' %}
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}>
-                    <a class="button button--primary" aria-label="{{block.settings.title}}"  href="/collections/{% if block.settings.title != blank and block.settings.title != "be have"%}{{block.settings.title}}{%- endif -%}
-                {%- if block.settings.title == "be have" %}be-have{%- endif -%}">
+                    
                     
                 
                     <img
@@ -55,8 +56,9 @@
                       width="{{ block.settings.image.width }}"
                       loading="lazy"
                     >
-                      </a>
+                      
                   </div>
+                    </a>
                 </div>
               {%- endif -%}
               <div class="multicolumn-card__info">
