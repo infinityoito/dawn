@@ -10,6 +10,50 @@
         "full_width": true
       }
     },
+    "multi_column": {
+      "type": "multicolumn",
+      "blocks": {
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/08E9025B-7666-427A-8155-33DAF0E296A0.png",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/manifest\" title=\"manifest\">manifest<\/a><\/p>"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8F005E02-5783-4292-BE39-23C574B168C6.png",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/saint-devil\" title=\"saint devil\">saint devil<\/a><\/p>"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/296C59AE-D014-4F0D-AFAA-5AF233FD445F.png",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/punish\" title=\"punish\">punish<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "column2",
+        "column1",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "image_width": "full",
+        "image_ratio": "square",
+        "column_alignment": "center",
+        "background_style": "secondary",
+        "button_label": "Corre Lá",
+        "button_link": "shopify:\/\/collections",
+        "swipe_on_mobile": true
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "disabled": true,
@@ -95,50 +139,6 @@
         "add_image_padding": true,
         "show_image_outline": true,
         "show_vendor": false
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/08E9025B-7666-427A-8155-33DAF0E296A0.png",
-            "title": "",
-            "text": "<p><a href=\"\/collections\/manifest\" title=\"manifest\">manifest<\/a><\/p>"
-          }
-        },
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/8F005E02-5783-4292-BE39-23C574B168C6.png",
-            "title": "",
-            "text": "<p><a href=\"\/collections\/saint-devil\" title=\"saint devil\">saint devil<\/a><\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/296C59AE-D014-4F0D-AFAA-5AF233FD445F.png",
-            "title": "",
-            "text": "<p><a href=\"\/collections\/punish\" title=\"punish\">punish<\/a><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column2",
-        "column1",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "square",
-        "column_alignment": "center",
-        "background_style": "secondary",
-        "button_label": "Corre Lá",
-        "button_link": "shopify:\/\/collections",
-        "swipe_on_mobile": true
       }
     },
     "collage": {
@@ -271,10 +271,10 @@
   },
   "order": [
     "video",
+    "multi_column",
     "image_banner",
     "rich_text",
     "featured_products",
-    "multi_column",
     "collage",
     "1629509162008de942",
     "162950938976847288",
