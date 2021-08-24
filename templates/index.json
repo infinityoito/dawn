@@ -100,34 +100,34 @@
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_3d064652-c8bc-48fb-9448-601906d09184.png",
-            "title": "",
-            "text": "<p><a href=\"\/collections\/saint-devil\" title=\"saint devil\">saint devil<\/a><\/p>"
-          }
-        },
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_dec3aa73-d573-400a-81ef-38928355fd65.png",
+            "image": "shopify:\/\/shop_images\/08E9025B-7666-427A-8155-33DAF0E296A0.png",
             "title": "",
             "text": "<p><a href=\"\/collections\/manifest\" title=\"manifest\">manifest<\/a><\/p>"
+          }
+        },
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8F005E02-5783-4292-BE39-23C574B168C6.png",
+            "title": "",
+            "text": "<p><a href=\"\/collections\/saint-devil\" title=\"saint devil\">saint devil<\/a><\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_916b5072-6ea8-490d-a728-a21d65bd655c.png",
+            "image": "shopify:\/\/shop_images\/296C59AE-D014-4F0D-AFAA-5AF233FD445F.png",
             "title": "",
             "text": "<p><a href=\"\/collections\/punish\" title=\"punish\">punish<\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "column1",
         "column2",
+        "column1",
         "column3"
       ],
       "settings": {
