@@ -36,12 +36,21 @@
             "title": "punish",
             "text": ""
           }
+        },
+        "c7ab8298-6422-41d3-8cde-aca83a52b4dd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_82e8a93f-8c8a-4de8-8bda-1d0cac2395c6.png",
+            "title": "saint devil",
+            "text": ""
+          }
         }
       },
       "block_order": [
         "column2",
         "column1",
-        "column3"
+        "column3",
+        "c7ab8298-6422-41d3-8cde-aca83a52b4dd"
       ],
       "settings": {
         "title": "",
@@ -51,7 +60,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": false
+        "swipe_on_mobile": true
       }
     },
     "image_banner": {
