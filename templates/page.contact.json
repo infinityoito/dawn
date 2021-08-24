@@ -1,17 +1,27 @@
 {
   "sections": {
     "main": {
-      "type": "main-page"
+      "type": "main-page",
+      "settings": {
+      }
     },
     "form": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "heading": ""
+      }
+    },
+    "1629830658c8f216f6": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Messenger Plugin de bate-papo Code -->\n    <div id=\"fb-root\"><\/div>\n\n    <!-- Your Plugin de bate-papo code -->\n    <div id=\"fb-customer-chat\" class=\"fb-customerchat\">\n    <\/div>\n\n    <script>\n      var chatbox = document.getElementById('fb-customer-chat');\n      chatbox.setAttribute(\"page_id\", \"101503422153105\");\n      chatbox.setAttribute(\"attribution\", \"biz_inbox\");\n\n      window.fbAsyncInit = function() {\n        FB.init({\n          xfbml            : true,\n          version          : 'v11.0'\n        });\n      };\n\n      (function(d, s, id) {\n        var js, fjs = d.getElementsByTagName(s)[0];\n        if (d.getElementById(id)) return;\n        js = d.createElement(s); js.id = id;\n        js.src = 'https:\/\/connect.facebook.net\/pt_BR\/sdk\/xfbml.customerchat.js';\n        fjs.parentNode.insertBefore(js, fjs);\n      }(document, 'script', 'facebook-jssdk'));\n    <\/script>"
       }
     }
   },
   "order": [
     "main",
-    "form"
+    "form",
+    "1629830658c8f216f6"
   ]
 }
