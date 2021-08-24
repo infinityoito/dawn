@@ -62,8 +62,8 @@
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if section.settings.button_label != blank -%}
-                <a class="button button--primary"{% if section.settings.button_link == blank %} aria-disabled="true" role="link"{% else %} href="/collection/"{{ block.settings.title }}"{% endif %}>
-                  {{ block.settings.title | escape }}
+                <a class="button button--primary"{% if section.settings.button_link == blank %} aria-disabled="true" role="link"{% else %} href="/collections/{{ block.settings.title }}"{% endif %}>
+                    <h3 class="nataxa-title-white">{{ block.settings.title | escape }}</h3>
                 </a>
               {%- endif-%}
               </div>
