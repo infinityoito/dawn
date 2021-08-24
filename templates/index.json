@@ -2,6 +2,7 @@
   "sections": {
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "cover_image": "shopify:\/\/shop_images\/compre-agora-nataxashop-saint-devil.png",
@@ -60,7 +61,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": true
+        "swipe_on_mobile": false
       }
     },
     "image_banner": {
@@ -141,8 +142,8 @@
         "title": "closet",
         "collection": "all",
         "products_to_show": 12,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": true,
