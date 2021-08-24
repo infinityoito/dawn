@@ -233,7 +233,7 @@
         "1629695039ffeb2094-1": {
           "type": "text",
           "settings": {
-            "text": "<p>ser um <strong>santa<\/strong> dá trabalho, ser o <strong>poder<\/strong>  caminhando na terra é mais fácil eu tenho o mundo na sola das minhas botas e os homens como meus <strong>serviçais. <\/strong>vista <a href=\"https:\/\/instagram.com\/nataxashop\" title=\"instagram @nataxashop\"><strong>nataxa<\/strong><\/a> e sinta esse poder.<\/p>"
+            "text": "<p>ser uma <strong>santa<\/strong> dá trabalho, ser o <strong>poder<\/strong>  caminhando na terra é mais fácil eu tenho o mundo na sola das minhas botas e os homens como meus <strong>serviçais. <\/strong>vista <a href=\"https:\/\/instagram.com\/nataxashop\" title=\"instagram @nataxashop\"><strong>nataxa<\/strong><\/a> e sinta esse poder.<\/p>"
           }
         },
         "1629695039ffeb2094-2": {
@@ -255,6 +255,18 @@
         "color_scheme": "background-1",
         "layout": "text_first"
       }
+    },
+    "16297700964fba31a9": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "162977011091279d26": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<covet-pics-widget gallery-embed-id=\"197688\"><\/covet-pics-widget>"
+      }
     }
   },
   "order": [
@@ -266,6 +278,8 @@
     "collage",
     "1629509162008de942",
     "162950938976847288",
-    "1629695039ffeb2094"
+    "1629695039ffeb2094",
+    "16297700964fba31a9",
+    "162977011091279d26"
   ]
 }
