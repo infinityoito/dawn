@@ -62,9 +62,8 @@
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if section.settings.button_label != blank -%}
-                
-                <a class="button button--primary"{% if section.settings.button_link == blank %} aria-disabled="true" role="link"{% else %} href="{% capture collection_var %}{{ title_var }}{% endcapture %}{% assign collection_var = "/collections" | append: '/' | append: block.settings.title %}" {% endif %}>
-                    <p>{{ block.settings.title | escape }}</p>
+                <a class="button button--primary"{% if section.settings.button_link == blank %} aria-disabled="true" role="link"{% else %} href="{{block.settings.title }}"{% endif %}>
+                    <p>{{ block.settings.title.button_label | escape }}</p>
                 </a>
               {%- endif-%}
               </div>
