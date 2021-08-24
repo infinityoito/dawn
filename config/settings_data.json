@@ -93,12 +93,12 @@
           "0d4f5bb6-ab18-4227-aae6-19b66a235589"
         ],
         "settings": {
-          "color_scheme": "accent-1",
+          "color_scheme": "inverse",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": true,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
           "payment_enable": true
         }
       }
