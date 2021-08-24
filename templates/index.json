@@ -11,6 +11,49 @@
         "full_width": true
       }
     },
+    "1629778276ba689eda": {
+      "type": "image-banner",
+      "blocks": {
+        "1629778276ba689eda-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "saint or devil"
+          }
+        },
+        "1629778276ba689eda-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1629778276ba689eda-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1629778276ba689eda-0",
+        "1629778276ba689eda-1",
+        "1629778276ba689eda-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/238324718_1171271263356679_2439167306468407696_n_c77248e1-5b37-4dfd-84b8-f8f33f403c99.jpg",
+        "image_2": "shopify:\/\/shop_images\/black-card-saint-devil-nataxa_-_1.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
+      }
+    },
     "multi_column": {
       "type": "multicolumn",
       "blocks": {
@@ -282,6 +325,7 @@
   },
   "order": [
     "video",
+    "1629778276ba689eda",
     "multi_column",
     "image_banner",
     "rich_text",
