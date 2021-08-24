@@ -56,7 +56,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                <a class="button button--primary" aria-label="{{block.settings.title}}" {% if section.settings.title == blank %} aria-disabled="true" role="link"{% else %} role="link" href="/collections/{% if block.settings.title != blank and block.settings.title != "be have"%}{{block.settings.title}}{%- endif -%}
+                <a class="button button--primary" aria-label="{{block.settings.title}}" {% if section.settings.title == blank %} aria-disabled="true" role="link"{% else %} href="/collections/{% if block.settings.title != blank and block.settings.title != "be have"%}{{block.settings.title}}{%- endif -%}
                 {%- if block.settings.title == "be have" %}be-have{%- endif -%}{%- endif -%}">
                     <span style="color:#fff;">{{ block.settings.title | escape }}</span>
                 </a>
