@@ -63,7 +63,7 @@
                 {%- endif -%}
                 {%- if section.settings.button_label != blank -%}
                 <a class="button button--primary"{% if section.settings.button_link == blank %} aria-disabled="true" role="link"{% else %} href="/collections/{{ block.settings.title }}"{% endif %}>
-                    {{ block.settings.title | escape }}
+                    <p>{{ block.settings.title | escape }}</p>
                 </a>
               {%- endif-%}
               </div>
