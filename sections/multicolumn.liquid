@@ -56,16 +56,15 @@
               {%- endif -%}
               <div class="multicolumn-card__info">
                 {%- if block.settings.title != blank -%}
-                  <h3>{{ block.settings.title | escape }}</h3>
+                <a class="button button--primary" aria-disabled="true" role="link" href="/collections/{%- if block.settings.title != blank -%}}{{block.settings.title }}{%- endif -%}
+                {% if block.settings.title == "be have" %}be-have{% endif %}">
+                    <p>{{ block.settings.title.button_label | escape }}</p>
+                </a>
+                  <!-- <h3>{{ block.settings.title | escape }}</h3> -->
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
                   <div class="rte">{{ block.settings.text }}</div>
                 {%- endif -%}
-                {%- if section.settings.button_label != blank -%}
-                <a class="button button--primary"{% if section.settings.button_link == blank %} aria-disabled="true" role="link"{% else %} href="{{block.settings.title }}"{% endif %}>
-                    <p>{{ block.settings.title.button_label | escape }}</p>
-                </a>
-              {%- endif-%}
               </div>
             </div>
           </li>
