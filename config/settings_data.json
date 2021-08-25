@@ -13,7 +13,8 @@
     "accent_icons": "outline-button",
     "page_width": "1600",
     "social_twitter_link": "https:\/\/twitter.com\/nataxashop",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/nataxashop",
+    "social_pinterest_link": "https:\/\/pinterest.com\/nataxashop",
     "social_instagram_link": "https:\/\/instagram.com\/nataxashop",
     "social_tiktok_link": "https:\/\/tiktok.com\/nataxashop",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCmiA9SohAdMYqNsLGfdXpyw",
@@ -53,11 +54,11 @@
         "type": "header",
         "settings": {
           "logo": "shopify:\/\/shop_images\/Asset_1_02a21823-d848-473c-aa71-052e32653aed.png",
-          "logo_width": 70,
+          "logo_width": 50,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": true,
-          "enable_sticky_header": true
+          "enable_sticky_header": false
         }
       },
       "footer": {
