@@ -396,12 +396,14 @@
       "blocks": {
         "163013279186051c69-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image banner"
           }
         },
         "163013279186051c69-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template."
           }
@@ -409,11 +411,11 @@
         "163013279186051c69-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
+            "button_label_1": "closet",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "meu segredo",
+            "button_link_2": "shopify:\/\/collections\/saint-devil",
             "button_style_secondary_2": false
           }
         }
