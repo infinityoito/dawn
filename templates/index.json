@@ -183,7 +183,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "closet",
-        "collection": "saint-devil",
+        "collection": "manifest",
         "products_to_show": 12,
         "show_view_all": true,
         "swipe_on_mobile": false,
