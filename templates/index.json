@@ -8,7 +8,7 @@
         "cover_image": "shopify:\/\/shop_images\/compre-agora-nataxashop-saint-devil.png",
         "video_url": "https:\/\/www.youtube.com\/watch?v=p477qX_HAmM",
         "description": "",
-        "full_width": true
+        "full_width": false
       }
     },
     "1629778276ba689eda": {
@@ -29,14 +29,13 @@
         },
         "1629778276ba689eda-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_1": "manifest",
+            "button_link_1": "shopify:\/\/collections\/manifest",
+            "button_style_secondary_1": true,
+            "button_label_2": "punish",
+            "button_link_2": "shopify:\/\/collections\/punish",
+            "button_style_secondary_2": true
           }
         }
       },
@@ -46,10 +45,10 @@
         "1629778276ba689eda-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LuanaGodoyFotografia-153_97c8288c-1872-47d5-8657-9b1d6f34c173.jpg",
-        "image_2": "shopify:\/\/shop_images\/black-card-saint-devil-nataxa_-_1.jpg",
+        "image": "shopify:\/\/shop_images\/IMG_5105.jpg",
+        "image_2": "shopify:\/\/shop_images\/IMG_5109.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-2",
         "stack_images_on_mobile": true,
         "adapt_height_first_image": false
       }
