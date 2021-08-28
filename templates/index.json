@@ -223,7 +223,7 @@
     "featured_products": {
       "type": "featured-collection",
       "settings": {
-        "title": "closet",
+        "title": "",
         "collection": "manifest",
         "products_to_show": 12,
         "show_view_all": true,
