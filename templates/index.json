@@ -49,6 +49,7 @@
       "blocks": {
         "c7ab8298-6422-41d3-8cde-aca83a52b4dd": {
           "type": "column",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/1_82e8a93f-8c8a-4de8-8bda-1d0cac2395c6.png",
             "title": "saint devil",
@@ -94,7 +95,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "swipe_on_mobile": true
+        "swipe_on_mobile": false
       }
     },
     "1629778276ba689eda": {
@@ -175,6 +176,48 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true
+      }
+    },
+    "163013279186051c69": {
+      "type": "image-banner",
+      "blocks": {
+        "163013279186051c69-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "163013279186051c69-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "163013279186051c69-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "closet",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163013279186051c69-0",
+        "163013279186051c69-1",
+        "163013279186051c69-2"
+      ],
+      "settings": {
+        "image_2": "shopify:\/\/shop_images\/closet_b3c590cb-688c-49db-9d08-2a049e7ce9ce.jpg",
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": false
       }
     },
     "featured_products": {
@@ -387,48 +430,6 @@
         "mobile_layout": "collage"
       }
     },
-    "163013279186051c69": {
-      "type": "image-banner",
-      "blocks": {
-        "163013279186051c69-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner"
-          }
-        },
-        "163013279186051c69-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "163013279186051c69-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "closet",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "163013279186051c69-0",
-        "163013279186051c69-1",
-        "163013279186051c69-2"
-      ],
-      "settings": {
-        "image_2": "shopify:\/\/shop_images\/closet_b3c590cb-688c-49db-9d08-2a049e7ce9ce.jpg",
-        "desktop_text_box_position": "flex-end",
-        "color_scheme": "accent-1",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": false
-      }
-    },
     "162977011091279d26": {
       "type": "custom-liquid",
       "settings": {
@@ -442,6 +443,7 @@
     "multi_column",
     "1629778276ba689eda",
     "rich_text",
+    "163013279186051c69",
     "featured_products",
     "collage",
     "1629509162008de942",
@@ -450,7 +452,6 @@
     "1629695039ffeb2094",
     "16297700964fba31a9",
     "163013276890c343d0",
-    "163013279186051c69",
     "162977011091279d26"
   ]
 }
