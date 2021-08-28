@@ -109,7 +109,6 @@
     },
     "image_banner": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -134,11 +133,11 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4.png",
+        "image_2": "shopify:\/\/shop_images\/black-card-saint-devil-nataxa_-_1.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": true
       }
     },
     "rich_text": {
@@ -275,6 +274,41 @@
         "full_width": true
       }
     },
+    "1630132699fdb892ff": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1630132699fdb892ff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1630132699fdb892ff-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1630132699fdb892ff-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1630132699fdb892ff-0",
+        "1630132699fdb892ff-1",
+        "1630132699fdb892ff-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
+    },
     "1629695039ffeb2094": {
       "type": "image-with-text",
       "blocks": {
@@ -321,6 +355,88 @@
       "settings": {
         "custom_liquid": "<covet-pics-widget gallery-embed-id=\"197688\"><\/covet-pics-widget>"
       }
+    },
+    "163013276890c343d0": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "163013276890c343d0-0": {
+          "type": "video",
+          "settings": {
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "description": "Describe the video for customers using screen readers",
+            "image_padding": false
+          }
+        },
+        "163013276890c343d0-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "secondary_background": false,
+            "second_image": false,
+            "image_padding": false
+          }
+        },
+        "163013276890c343d0-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        }
+      },
+      "block_order": [
+        "163013276890c343d0-0",
+        "163013276890c343d0-1",
+        "163013276890c343d0-2"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "desktop_layout": "left",
+        "mobile_layout": "collage"
+      }
+    },
+    "163013279186051c69": {
+      "type": "image-banner",
+      "blocks": {
+        "163013279186051c69-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner"
+          }
+        },
+        "163013279186051c69-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "163013279186051c69-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "163013279186051c69-0",
+        "163013279186051c69-1",
+        "163013279186051c69-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/star_a969e8b5-346e-4323-a810-e5d4881f4dcc.jpg",
+        "image_2": "shopify:\/\/shop_images\/closet_b3c590cb-688c-49db-9d08-2a049e7ce9ce.jpg",
+        "desktop_text_box_position": "flex-start",
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": true
+      }
     }
   },
   "order": [
@@ -333,8 +449,11 @@
     "collage",
     "1629509162008de942",
     "162950938976847288",
+    "1630132699fdb892ff",
     "1629695039ffeb2094",
     "16297700964fba31a9",
-    "162977011091279d26"
+    "162977011091279d26",
+    "163013276890c343d0",
+    "163013279186051c69"
   ]
 }
