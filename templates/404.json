@@ -1,11 +1,5 @@
 {
   "sections": {
-    "main": {
-      "type": "main-404",
-      "disabled": true,
-      "settings": {
-      }
-    },
     "1630152081a8da7fb5": {
       "type": "featured-collection",
       "settings": {
@@ -33,11 +27,16 @@
         "soft_background": false,
         "show_view_all": true
       }
+    },
+    "main": {
+      "type": "main-404",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main",
     "1630152081a8da7fb5",
-    "1630152126918545bb"
+    "1630152126918545bb",
+    "main"
   ]
 }
