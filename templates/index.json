@@ -11,46 +11,37 @@
         "full_width": false
       }
     },
-    "1629778276ba689eda": {
+    "image_banner": {
       "type": "image-banner",
       "blocks": {
-        "1629778276ba689eda-0": {
+        "heading": {
           "type": "heading",
           "settings": {
-            "heading": "saint devil"
+            "heading": "Saint Devil"
           }
         },
-        "1629778276ba689eda-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
-        "1629778276ba689eda-2": {
+        "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "manifest",
-            "button_link_1": "shopify:\/\/collections\/manifest",
-            "button_style_secondary_1": true,
-            "button_label_2": "punish",
-            "button_link_2": "shopify:\/\/collections\/punish",
-            "button_style_secondary_2": true
+            "button_label_1": "Shop all",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "1629778276ba689eda-0",
-        "1629778276ba689eda-1",
-        "1629778276ba689eda-2"
+        "heading",
+        "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/IMG_5105.jpg",
-        "image_2": "shopify:\/\/shop_images\/IMG_5109.jpg",
+        "image_2": "shopify:\/\/shop_images\/black-card-saint-devil-nataxa_-_1.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-2",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": false
+        "color_scheme": "background-1",
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": true
       }
     },
     "multi_column": {
@@ -106,37 +97,45 @@
         "swipe_on_mobile": true
       }
     },
-    "image_banner": {
+    "1629778276ba689eda": {
       "type": "image-banner",
       "blocks": {
-        "heading": {
+        "1629778276ba689eda-0": {
           "type": "heading",
           "settings": {
-            "heading": "Saint Devil"
+            "heading": "saint devil"
           }
         },
-        "button": {
+        "1629778276ba689eda-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template."
+          }
+        },
+        "1629778276ba689eda-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_1": "manifest",
+            "button_link_1": "shopify:\/\/collections\/manifest",
+            "button_style_secondary_1": true,
+            "button_label_2": "punish",
+            "button_link_2": "shopify:\/\/collections\/punish",
+            "button_style_secondary_2": true
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "1629778276ba689eda-0",
+        "1629778276ba689eda-1",
+        "1629778276ba689eda-2"
       ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/black-card-saint-devil-nataxa_-_1.jpg",
+        "image_2": "shopify:\/\/shop_images\/IMG_5109.jpg",
         "desktop_text_box_position": "flex-end",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "adapt_height_first_image": true
+        "color_scheme": "background-2",
+        "stack_images_on_mobile": true,
+        "adapt_height_first_image": false
       }
     },
     "rich_text": {
@@ -194,44 +193,40 @@
     },
     "collage": {
       "type": "collage",
-      "disabled": true,
       "blocks": {
-        "video": {
-          "type": "video",
+        "2741c5b2-5f28-45f5-bdd0-a7d4e0f999e5": {
+          "type": "image",
           "settings": {
-            "cover_image": "shopify:\/\/shop_images\/mq2.jpg",
-            "video_url": "https:\/\/youtu.be\/RnDl6Jlaj5Y",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "nataxa-1",
+            "image": "shopify:\/\/shop_images\/IMG_5105.jpg",
             "image_padding": false,
-            "color_scheme": "inverse"
+            "color_scheme": "background-1"
           }
         },
-        "product": {
-          "type": "product",
-          "disabled": true,
+        "509d9073-acd0-4b27-a5e7-5b691017d7b7": {
+          "type": "image",
           "settings": {
-            "product": "",
-            "secondary_background": true,
-            "second_image": true,
-            "image_padding": true
+            "image": "shopify:\/\/shop_images\/behave.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
+          }
+        },
+        "d84c658f-3336-4cf0-8547-7ad5021ef25d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_5109.jpg",
+            "image_padding": false,
+            "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "video",
-        "collection",
-        "product"
+        "2741c5b2-5f28-45f5-bdd0-a7d4e0f999e5",
+        "509d9073-acd0-4b27-a5e7-5b691017d7b7",
+        "d84c658f-3336-4cf0-8547-7ad5021ef25d"
       ],
       "settings": {
         "heading": "",
-        "desktop_layout": "left",
+        "desktop_layout": "right",
         "mobile_layout": "collage"
       }
     },
@@ -429,20 +424,19 @@
         "163013279186051c69-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/star_a969e8b5-346e-4323-a810-e5d4881f4dcc.jpg",
         "image_2": "shopify:\/\/shop_images\/closet_b3c590cb-688c-49db-9d08-2a049e7ce9ce.jpg",
-        "desktop_text_box_position": "flex-start",
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "adapt_height_first_image": true
+        "desktop_text_box_position": "flex-end",
+        "color_scheme": "accent-1",
+        "stack_images_on_mobile": false,
+        "adapt_height_first_image": false
       }
     }
   },
   "order": [
     "video",
-    "1629778276ba689eda",
-    "multi_column",
     "image_banner",
+    "multi_column",
+    "1629778276ba689eda",
     "rich_text",
     "featured_products",
     "collage",
