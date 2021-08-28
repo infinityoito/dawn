@@ -16,6 +16,7 @@
       "blocks": {
         "heading": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Saint Devil"
           }
@@ -23,11 +24,11 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "saint",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "devil",
+            "button_link_2": "shopify:\/\/collections\/all",
             "button_style_secondary_2": false
           }
         }
@@ -37,11 +38,11 @@
         "button"
       ],
       "settings": {
-        "image_2": "shopify:\/\/shop_images\/black-card-saint-devil-nataxa_-_1.jpg",
+        "image": "shopify:\/\/shop_images\/black-card-saint-devil-nataxa_-_1.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": false,
-        "adapt_height_first_image": true
+        "adapt_height_first_image": false
       }
     },
     "multi_column": {
