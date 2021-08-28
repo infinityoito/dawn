@@ -17,13 +17,13 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Saint Devil"
+            "heading": "saint devil"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Levar agora",
+            "button_label_1": "levar agora",
             "button_link_1": "shopify:\/\/collections\/saint-devil",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -383,53 +383,6 @@
         "layout": "text_first"
       }
     },
-    "16297700964fba31a9": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "163013276890c343d0": {
-      "type": "collage",
-      "disabled": true,
-      "blocks": {
-        "163013276890c343d0-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video for customers using screen readers",
-            "image_padding": false
-          }
-        },
-        "163013276890c343d0-1": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "secondary_background": false,
-            "second_image": false,
-            "image_padding": false
-          }
-        },
-        "163013276890c343d0-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "163013276890c343d0-0",
-        "163013276890c343d0-1",
-        "163013276890c343d0-2"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "desktop_layout": "left",
-        "mobile_layout": "collage"
-      }
-    },
     "162977011091279d26": {
       "type": "custom-liquid",
       "settings": {
@@ -450,8 +403,6 @@
     "162950938976847288",
     "1630132699fdb892ff",
     "1629695039ffeb2094",
-    "16297700964fba31a9",
-    "163013276890c343d0",
     "162977011091279d26"
   ]
 }
