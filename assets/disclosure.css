@@ -28,8 +28,7 @@
   bottom: 100%;
   transform: translateY(-1rem);
   z-index: 2;
-/*   background-color: rgb(var(--color-background)); */
-    background: #000;
+  background-color: rgb(var(--color-background));
 }
 
 .disclosure__item {
